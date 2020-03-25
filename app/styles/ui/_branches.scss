@@ -109,6 +109,10 @@
       margin-right: var(--spacing-half);
     }
   }
+
+  .filter-list-group-header {
+    @include ellipsis;
+  }
 }
 
 .branches-list {
