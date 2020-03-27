@@ -42,6 +42,7 @@ describe('git/checkout', () => {
         authoredByCommitter: true,
         parentSHAs: [],
         trailers: [],
+        tags: null,
         coAuthors: [],
       },
       remote: null,
